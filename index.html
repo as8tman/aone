@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Optimization Meta Tags -->
+  <title>Aone Company | Global Electronics Sourcing & Korean Entry Agency</title>
+  <meta name="description" content="Aone Company is your premier partner for global sourcing of automotive connectors (TE, KET, Molex), electric wires, electronic components, home appliances, and specialized market entry agency services in South Korea.">
+  <meta name="keywords" content="Aone Company, TE Connectivity, KET connector, Molex, automotive wire harness, electronic components sourcing, Korean market entry agency, electrical appliances distributor Korea">
+  <link rel="canonical" href="http://www.aonecompany.com/">
+  
+  <!-- OpenGraph Social Metadata -->
+  <meta property="og:title" content="Aone Company - Global Electronics Sourcing & Korean Entry Agency">
+  <meta property="og:description" content="Direct sourcing partner for international brands. Sourcing connectors, cables, home appliances, and providing local Korean agency representation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://www.aonecompany.com/">
+  <meta property="og:image" content="assets/images/og-share.jpg">
+  
+  <!-- Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Core Design Styles -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="lang-ko"> <!-- Toggled to lang-en dynamically -->
+
+  <!-- Background Nodes Animation -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="logo-wrapper">
+        <a href="index.html">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#3b82f6" />
+                <stop offset="100%" stop-color="#06b6d4" />
+              </linearGradient>
+            </defs>
+            <!-- Stylized connection nodes icon -->
+            <circle cx="50" cy="30" r="10" fill="url(#logo-grad)" />
+            <circle cx="25" cy="65" r="8" fill="url(#logo-grad)" />
+            <circle cx="75" cy="65" r="8" fill="url(#logo-grad)" />
+            <line x1="50" y1="30" x2="25" y2="65" stroke="#f8fafc" stroke-width="4" stroke-opacity="0.8" />
+            <line x1="50" y1="30" x2="75" y2="65" stroke="#f8fafc" stroke-width="4" stroke-opacity="0.8" />
+            <line x1="25" y1="65" x2="75" y2="65" stroke="#3b82f6" stroke-width="2" stroke-dasharray="4,2" />
+          </svg>
+          <span class="logo-text">AONE <span>COMPANY</span></span>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li>
+            <a href="index.html">
+              <span data-lang="ko">홈</span>
+              <span data-lang="en">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="products.html">
+              <span data-lang="ko">제품 카탈로그</span>
+              <span data-lang="en">Products</span>
+            </a>
+          </li>
+          <li>
+            <a href="agency.html">
+              <span data-lang="ko">한국 진출 에이전시</span>
+              <span data-lang="en">Agency Service</span>
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              <span data-lang="ko">회사 소개</span>
+              <span data-lang="en">About Us</span>
+            </a>
+          </li>
+          <li>
+            <a href="contact.html">
+              <span data-lang="ko">고객 문의</span>
+              <span data-lang="en">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header-controls">
+        <!-- Language Select Toggle -->
+        <div class="lang-switch">
+          <button class="lang-btn active" data-lang-btn="ko">KO</button>
+          <button class="lang-btn" data-lang-btn="en">EN</button>
+        </div>
+
+        <!-- RFQ Cart Indicator Button -->
+        <button class="rfq-badge-btn" aria-label="View RFQ items">
+          <i class="fa-solid fa-file-invoice"></i>
+          <span data-lang="ko">RFQ 문의함</span>
+          <span data-lang="en">RFQ List</span>
+          <span class="rfq-count">0</span>
+        </button>
+
+        <button class="menu-toggle" aria-label="Toggle Navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <i class="fa-solid fa-globe"></i>
+            <span data-lang="ko">글로벌 커넥터 및 전자부품 소싱 허브</span>
+            <span data-lang="en">Global Electronics Sourcing Hub & Agency</span>
+          </div>
+          
+          <h1 class="hero-title">
+            <span data-lang="ko">산업용 부품 소싱과<br><span class="highlight">한국 진출</span>의 시작</span>
+            <span data-lang="en">Your Gateway to<br><span class="highlight">Sourcing & Korean</span> Market</span>
+          </h1>
+          
+          <p class="hero-subtitle">
+            <span data-lang="ko">Aone Company는 글로벌 전장 부품 및 커넥터, 전선, 가전제품 공급 전문 기업입니다. 더불어 글로벌 브랜드의 신뢰할 수 있는 한국 시장 비즈니스 진출 파트너로서 법률 규제, 물류, 마케팅 에이전시 서비스를 원스톱으로 지원합니다.</span>
+            <span data-lang="en">Aone Company is a premium distributor of automotive connectors, electric wires, electronics, and home appliances. We also serve as the ultimate agency for foreign enterprises seeking compliance, distribution networks, and B2B expansion into South Korea.</span>
+          </p>
+          
+          <div class="hero-cta">
+            <a href="products.html" class="btn btn-primary">
+              <span data-lang="ko">제품 카탈로그 보기</span>
+              <span data-lang="en">Explore Products</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="agency.html" class="btn btn-secondary">
+              <span data-lang="ko">에이전시 서비스 문의</span>
+              <span data-lang="en">Korean Entry Support</span>
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">10K+</span>
+              <span class="stat-label">
+                <span data-lang="ko">취급 파트 넘버</span>
+                <span data-lang="en">Available Parts</span>
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">24H</span>
+              <span class="stat-label">
+                <span data-lang="ko">견적 응답 속도</span>
+                <span data-lang="en">RFQ Response</span>
+              </span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">99.8<span>%</span></span>
+              <span class="stat-label">
+                <span data-lang="ko">정품 보증율</span>
+                <span data-lang="en">Genuine Guarantee</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <div class="visual-card">
+            <div class="visual-header">
+              <span class="visual-title">
+                <span data-lang="ko">실시간 견적 및 업무 현황</span>
+                <span data-lang="en">Live Business Dashboard</span>
+              </span>
+              <div class="visual-status">
+                <div class="visual-status-dot"></div>
+                <span data-lang="ko">온라인 지원 중</span>
+                <span data-lang="en">Live Support</span>
+              </div>
+            </div>
+            
+            <div class="visual-list">
+              <div class="visual-item">
+                <div class="visual-icon"><i class="fa-solid fa-cube"></i></div>
+                <div class="visual-item-info">
+                  <div class="visual-item-title">KET MG642437 Connector</div>
+                  <div class="visual-item-desc">
+                    <span data-lang="ko">독일 완성차 업체 OEM 발주</span>
+                    <span data-lang="en">OEM inquiry from Germany</span>
+                  </div>
+                </div>
+                <div class="visual-item-action"><span data-lang="ko">완료</span><span data-lang="en">Ready</span></div>
+              </div>
+              
+              <div class="visual-item">
+                <div class="visual-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div class="visual-item-info">
+                  <div class="visual-item-title">FLRY-B 0.5sq Cable Sourcing</div>
+                  <div class="visual-item-desc">
+                    <span data-lang="ko">국내 와이어하네스 제조사 공급</span>
+                    <span data-lang="en">Shipped to local assembler</span>
+                  </div>
+                </div>
+                <div class="visual-item-action"><span data-lang="ko">완료</span><span data-lang="en">Ready</span></div>
+              </div>
+              
+              <div class="visual-item">
+                <div class="visual-icon"><i class="fa-solid fa-handshake"></i></div>
+                <div class="visual-item-info">
+                  <div class="visual-item-title">KC Compliance Agency</div>
+                  <div class="visual-item-desc">
+                    <span data-lang="ko">미국 스마트 홈 가전업체 KC 인증 대행</span>
+                    <span data-lang="en">US Smart Appliance KC Certification</span>
+                  </div>
+                </div>
+                <div class="visual-item-action"><span data-lang="ko">진행중</span><span data-lang="en">Active</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Brands Banner Section -->
+    <section class="brands-section">
+      <div class="brands-container">
+        <span class="brands-subtitle">
+          <span data-lang="ko">공식 유통 브랜드 및 파트너사</span>
+          <span data-lang="en">Brands We Source & Distribute</span>
+        </span>
+        <div class="brands-grid">
+          <div class="brand-logo" title="TE Connectivity">
+            <!-- TE Connectivity SVG Placeholder -->
+            <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">TE Connectivity</span>
+          </div>
+          <div class="brand-logo" title="KET">
+            <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">KET</span>
+          </div>
+          <div class="brand-logo" title="Molex">
+            <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">Molex</span>
+          </div>
+          <div class="brand-logo" title="Yazaki">
+            <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">Yazaki</span>
+          </div>
+          <div class="brand-logo" title="Sumitomo">
+            <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">Sumitomo</span>
+          </div>
+          <div class="brand-logo" title="KUM">
+            <span style="font-family: var(--font-heading); font-weight: 800; font-size: 1.25rem;">KUM</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Business Divisions / Features -->
+    <section id="features-section">
+      <span class="section-tagline">
+        <span data-lang="ko">사업 영역</span>
+        <span data-lang="en">Our Divisions</span>
+      </span>
+      <h2 class="section-title">
+        <span data-lang="ko">글로벌 무역 및 <span>에이전시 원스톱 솔루션</span></span>
+        <span data-lang="en">Global Trading & <span>Korean Agency Solutions</span></span>
+      </h2>
+      <p class="section-desc">
+        <span data-lang="ko">Aone Company는 신속성, 품질, 투명성을 바탕으로 완벽한 커넥터 및 전선 공급 인프라와 강력한 국내 네트워크를 통한 지사 대행 서비스를 제공합니다.</span>
+        <span data-lang="en">Integrating secure hardware component supply chains with localized B2B marketing pipelines to deliver unparalleled distribution speed for Aone partners.</span>
+      </p>
+
+      <div class="features-grid">
+        <!-- Division 1: Connectors & Electronic Parts -->
+        <article class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h3>
+            <span data-lang="ko">커넥터 & 전자 부품 소싱</span>
+            <span data-lang="en">Connector & Electronic Parts</span>
+          </h3>
+          <p>
+            <span data-lang="ko">TE, KET, Molex, Delphi 등 글로벌 톱 티어 하우징과 터미널, 실리콘 고무, 릴레이, 스위치를 세계 각지로 신속 유통합니다. 단종 및 희귀 품목 공급에 특화되어 있습니다.</span>
+            <span data-lang="en">Instant sourcing of genuine automotive connectors, terminals, seals, switches, and relays. Expertise in procuring long-lead time and obsolete product lines globally.</span>
+          </p>
+          <a href="products.html?category=connectors" class="feature-link">
+            <span data-lang="ko">카탈로그 보기</span>
+            <span data-lang="en">Browse Components</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- Division 2: Wires & Cables -->
+        <article class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-bezier-curve"></i>
+          </div>
+          <h3>
+            <span data-lang="ko">전선 및 커스텀 하네스</span>
+            <span data-lang="en">Wires & Custom Harnesses</span>
+          </h3>
+          <p>
+            <span data-lang="ko">ISO 규격의 차량용 저압 전선(FLRY-B, AVSS)과 고부하 산업용 전원 케이블을 공급하며 도면에 따른 고품질 맞춤형 와이어 하네스 임가공 제작 및 안전성 테스트를 보장합니다.</span>
+            <span data-lang="en">Supplier of ISO-standard automotive thin-wall wiring (FLRY-B), multicore coaxial, and power cables. Providing turnkey wire harness layout assembly and electrical testing.</span>
+          </p>
+          <a href="products.html?category=wires" class="feature-link">
+            <span data-lang="ko">전선 규격 검토</span>
+            <span data-lang="en">Explore Cables</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+
+        <!-- Division 3: Home Appliances & OEM -->
+        <article class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fa-solid fa-house-laptop"></i>
+          </div>
+          <h3>
+            <span data-lang="ko">프리미엄 가전제품 유통</span>
+            <span data-lang="en">Home Appliance Distribution</span>
+          </h3>
+          <p>
+            <span data-lang="ko">소비자의 생활 편의를 증진하는 필터식 정수기, 고성능 공기청정기, 인덕션 등 생활 가전제품의 소싱, 수입 대행, OEM 제조 컨설팅 및 렌탈사 연계 비즈니스를 주도합니다.</span>
+            <span data-lang="en">Sourcing and distribution of consumer lifestyle appliances including smart air purifiers, built-in cooktops, and household filtration equipment under OEM/B2B channels.</span>
+          </p>
+          <a href="products.html?category=appliances" class="feature-link">
+            <span data-lang="ko">가전제품 소싱 문의</span>
+            <span data-lang="en">Inquire Appliances</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </article>
+      </div>
+
+      <!-- Core Agency CTA banner -->
+      <div class="cta-banner-wrapper">
+        <div class="cta-banner">
+          <div>
+            <span class="section-tagline" style="color: var(--color-secondary);">
+              <span data-lang="ko">글로벌 기업 파트너십</span>
+              <span data-lang="en">Global Brand Partnership</span>
+            </span>
+            <h3>
+              <span data-lang="ko">한국 시장 진출을 원하십니까?<br>Aone 에이전시가 로컬 지사 역할을 대행합니다.</span>
+              <span data-lang="en">Expanding into South Korea?<br>Let Aone Company be your local branch agency.</span>
+            </h3>
+            <p>
+              <span data-lang="ko">복잡한 국가 전기 안전 KC 인증 획득 지원부터 현지 벤더 등록, 물류 통관 대행 및 국내 주요 유통망 연결까지, 성공적인 런칭을 밀착 수행합니다.</span>
+              <span data-lang="en">We handle regulatory KC safety certifications, regional warehouse logistics, localized marketing campaigns, and B2B vendor registrations for international companies.</span>
+            </p>
+          </div>
+          <div class="cta-banner-actions">
+            <a href="agency.html" class="btn btn-accent">
+              <span data-lang="ko">에이전시 솔루션 확인</span>
+              <span data-lang="en">View Agency Details</span>
+              <i class="fa-solid fa-handshake"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section style="border-top: 1px solid var(--border-light);">
+      <span class="section-tagline">
+        <span data-lang="ko">우리의 핵심 가치</span>
+        <span data-lang="en">Why Choose Aone</span>
+      </span>
+      <h2 class="section-title">
+        <span data-lang="ko">안정적인 물류와 <span>지속 가능한 신뢰</span></span>
+        <span data-lang="en">Engineered for Speed, <span>Built for Trust</span></span>
+      </h2>
+      <p class="section-desc">
+        <span data-lang="ko">해외 바이어들이 매월 Aone Company에 부품 조달 및 로컬 에이전시 문의를 진행하는 이유입니다.</span>
+        <span data-lang="en">Here is why global buyers and manufacturers build decade-long partnerships with Aone Company.</span>
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card" style="padding: 2rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.8rem;">
+            <i class="fa-solid fa-truck-fast" style="color: var(--color-primary);"></i>
+            <span data-lang="ko">초고속 납기 & 안전 물류</span>
+            <span data-lang="en">Express Global Shipping</span>
+          </h4>
+          <p style="font-size: 0.9rem; margin-bottom: 0;">
+            <span data-lang="ko">DHL, FedEx, EMS 등 전 세계 물류 네트워크와 제휴하여, 해외 바이어의 공장에 맞춤형 포장 및 안전 통관 서류를 첨부하여 정밀 부품을 긴급 운송합니다.</span>
+            <span data-lang="en">Partnerships with global couriers ensure express shipping (DHL, FedEx, UPS) directly to your factory with complete customs export documentations.</span>
+          </p>
+        </div>
+
+        <div class="feature-card" style="padding: 2rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.8rem;">
+            <i class="fa-solid fa-clipboard-check" style="color: var(--color-secondary);"></i>
+            <span data-lang="ko">100% 품질 추적성</span>
+            <span data-lang="en">100% Quality & Traceability</span>
+          </h4>
+          <p style="font-size: 0.9rem; margin-bottom: 0;">
+            <span data-lang="ko">공급하는 모든 하우징 및 리셉터클 단자는 원재료 밀 시트(Mill Sheet) 및 성적서 추적이 가능한 100% 오리지널 순정품으로, 불량률 ZERO를 보증합니다.</span>
+            <span data-lang="en">We trace batches from certified producers, guaranteeing original parts. Quality compliance sheets are attached with every electrical hardware order.</span>
+          </p>
+        </div>
+
+        <div class="feature-card" style="padding: 2rem;">
+          <h4 style="font-size: 1.2rem; margin-bottom: 0.8rem; display: flex; align-items: center; gap: 0.8rem;">
+            <i class="fa-solid fa-users-gear" style="color: var(--color-accent);"></i>
+            <span data-lang="ko">소량 발주 및 맞춤 솔루션</span>
+            <span data-lang="en">Flexible MOQ & Sourcing</span>
+          </h4>
+          <p style="font-size: 0.9rem; margin-bottom: 0;">
+            <span data-lang="ko">대형 대리점들이 기피하는 소량(MOQ 이하) 부품도 조달 가능하며, 가전기기 부품 설계 및 임가공까지 전문 엔지니어링 상담을 제공합니다.</span>
+            <span data-lang="en">No inquiry is too small. We support lower Minimum Order Quantities (MOQs) for development prototypes and custom engineering designs.</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="index.html" style="display: flex; align-items: center; gap: 0.5rem;">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" style="height:30px; width:30px; fill:url(#logo-grad)">
+            <circle cx="50" cy="30" r="10" />
+            <circle cx="25" cy="65" r="8" />
+            <circle cx="75" cy="65" r="8" />
+            <line x1="50" y1="30" x2="25" y2="65" stroke="#f8fafc" stroke-width="4" />
+            <line x1="50" y1="30" x2="75" y2="65" stroke="#f8fafc" stroke-width="4" />
+          </svg>
+          <span style="font-family: var(--font-heading); font-size:1.3rem; font-weight:800;">AONE <span style="color:var(--color-primary)">CO.</span></span>
+        </a>
+        <p>
+          <span data-lang="ko">Aone Company는 신뢰할 수 있는 전장부품, 가전 기기 소싱 및 한국 진출 비즈니스 컨설팅 대행 리더입니다.</span>
+          <span data-lang="en">Bridging international component sourcing networks and providing expert market-entry consulting in Korea.</span>
+        </p>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>
+          <span data-lang="ko">비즈니스</span>
+          <span data-lang="en">Business</span>
+        </h4>
+        <ul>
+          <li><a href="products.html"><span data-lang="ko">제품 카탈로그</span><span data-lang="en">Components Catalog</span></a></li>
+          <li><a href="agency.html"><span data-lang="ko">한국 진출 에이전시</span><span data-lang="en">Korean Entry Agency</span></a></li>
+          <li><a href="rfq.html"><span data-lang="ko">견적 요청 (RFQ)</span><span data-lang="en">Request a Quote (RFQ)</span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>
+          <span data-lang="ko">회사 정보</span>
+          <span data-lang="en">Corporate</span>
+        </h4>
+        <ul>
+          <li><a href="about.html"><span data-lang="ko">회사 소개</span><span data-lang="en">About Us</span></a></li>
+          <li><a href="contact.html"><span data-lang="ko">오시는 길 & 연락처</span><span data-lang="en">Office Location</span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>
+          <span data-lang="ko">공식 연락처</span>
+          <span data-lang="en">Contact</span>
+        </h4>
+        <ul style="color: var(--text-muted); font-size: 0.85rem; gap: 0.5rem;">
+          <li><i class="fa-solid fa-envelope"></i> sales@aonecompany.com</li>
+          <li><i class="fa-solid fa-phone"></i> +82-2-1234-5678</li>
+          <li><i class="fa-solid fa-fax"></i> +82-2-1234-5679</li>
+          <li><i class="fa-solid fa-location-dot"></i> <span data-lang="ko">서울시 마포구 양화로 7길 55</span><span data-lang="en">55, Yangwharo-7gil, Mapo-gu, Seoul</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>
+        &copy; 2026 Aone Company Co., Ltd. All rights reserved.
+      </div>
+      <div class="footer-socials">
+        <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="social-icon" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="mailto:sales@aonecompany.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/canvas.js"></script>
+</body>
+</html>
